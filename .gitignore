@@ -1,0 +1,35 @@
+# 模型权重：体积大且可重新下载，不入库（获取方式见 README「模型文件」表）
+weights/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Python 字节码与打包产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 推理产物与日志
+processed_images/
+out/
+logs/
+*.jsonl
+
+# 底库与特征缓存属敏感个人信息（人脸），严禁入库
+gallery/
+*.npz
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
